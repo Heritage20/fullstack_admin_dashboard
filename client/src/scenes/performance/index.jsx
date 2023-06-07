@@ -2,7 +2,6 @@ import { useGetUserPerformanceQuery } from "state/api";
 import { Box, useTheme } from "@mui/material";
 import Header from "components/Header";
 import { DataGrid } from "@mui/x-data-grid";
-import CustomColumnMenu from "components/DataGridCustomColumnMenu";
 import { useSelector } from "react-redux";
 
 const Performance = () => {
@@ -80,9 +79,6 @@ const Performance = () => {
           getRowId={(row) => row._id}
           rows={(data && data.sales) || []}
           columns={columns}
-          // components={{
-          //   ColumnMenu: CustomColumnMenu,
-          // }}
         />
       </Box>
     </Box>
