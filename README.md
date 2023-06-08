@@ -2,7 +2,7 @@
 
 
 This project is inspired by 
-[EdRoh](https://www.youtube.com/@EdRohDev)
+[EdRoh](https://www.youtube.com/@EdRohDev) YouTube Lesson
 
 1. React
 2. Material_UI
